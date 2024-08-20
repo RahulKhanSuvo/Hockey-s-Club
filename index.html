@@ -7,12 +7,52 @@
     <!-- tailwind -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/9707f43bdc.js" crossorigin="anonymous"></script>
     <title>Hockey's Club</title>
 </head>
 
 <body>
-
+    <header class="md:container mx-auto">
+        <!-- navBar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 font-semibold shadow">
+                        <li class="hover:text-red-500 du ease-in-out"><a>Home</a></li>
+                        <li class="hover:text-red-500 du ease-in-out"><a>About</a></li>
+                        <li class="hover:text-red-500 du ease-in-out"><a>Pages</a></li>
+                        <li class="hover:text-red-500 du ease-in-out"><a>Blog</a></li>
+                        <li class="hover:text-red-500 du ease-in-out"><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-2xl font-bold">Hockey<span class="text-red-500">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 font-semibold">
+                    <li class="hover:text-red-500 du ease-in-out"><a>Home</a></li>
+                    <li class="hover:text-red-500 du ease-in-out"><a>About</a></li>
+                    <li class="hover:text-red-500 du ease-in-out"><a>Pages</a></li>
+                    <li class="hover:text-red-500 du ease-in-out"><a>Blog</a></li>
+                    <li class="hover:text-red-500 du ease-in-out"><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end flex gap-6">
+                <i class="fa-solid hidden cursor-pointer md:block fa-magnifying-glass"></i>
+                <a class="btn text-white hover:text-red-400 bg-[#FF4240]">Get Ticket</a>
+            </div>
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 
 </html>
